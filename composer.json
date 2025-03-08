@@ -1,0 +1,16 @@
+{
+    "name": "thiago.luna/observable",
+    "description": "How to implement Observer Pattern",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago Luna",
+            "email": "thiagoluna2@gmail.com"
+        }
+    ],
+    "require": {}
+}
