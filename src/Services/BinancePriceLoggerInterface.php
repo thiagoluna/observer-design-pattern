@@ -2,7 +2,9 @@
 
 namespace App\Services;
 
-class BinancePriceLogger implements BitcoinPriceObserver
+use App\Services\Interfaces\BitcoinPriceObserverInterface;
+
+class BinancePriceLoggerInterface implements BitcoinPriceObserverInterface
 {
 
     /**

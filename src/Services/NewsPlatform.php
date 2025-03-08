@@ -2,7 +2,9 @@
 
 namespace App\Services;
 
-class NewsPlatform implements BitcoinPriceObserver
+use App\Services\Interfaces\BitcoinPriceObserverInterface;
+
+class NewsPlatform implements BitcoinPriceObserverInterface
 {
     /**
      * @param float $price

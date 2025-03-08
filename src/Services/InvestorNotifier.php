@@ -2,7 +2,9 @@
 
 namespace App\Services;
 
-class InvestorNotifier implements BitcoinPriceObserver
+use App\Services\Interfaces\BitcoinPriceObserverInterface;
+
+class InvestorNotifier implements BitcoinPriceObserverInterface
 {
     /**
      * @param float $price

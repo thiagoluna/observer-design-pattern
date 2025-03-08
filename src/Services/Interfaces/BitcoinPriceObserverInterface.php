@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Interfaces;
 
-interface BitcoinPriceObserver
+interface BitcoinPriceObserverInterface
 {
     /**
      * @param float $price

@@ -2,7 +2,7 @@
 
 namespace App\Criptocurrency;
 
-use App\Services\BitcoinPriceObserver;
+use App\Services\Interfaces\BitcoinPriceObserverInterface;
 
 class Bitcoin
 {
@@ -34,10 +34,10 @@ class Bitcoin
     }
 
     /**
-     * @param BitcoinPriceObserver $observer
+     * @param BitcoinPriceObserverInterface $observer
      * @return void
      */
-    public function addObservers(BitcoinPriceObserver $observer): void
+    public function addObservers(BitcoinPriceObserverInterface $observer): void
     {
         $this->observers[] = $observer;
     }
